@@ -5,8 +5,8 @@ const Nav = () => {
   return (
     <div className='w-full flex px-11 my-5 bg-white'>
      <div className='nav_left_logo flex gap-4 m-3 items-center justify-center w-[35%]'>
-      <img src={ElreyLogo} alt='Elrey' className='w-[10%]'/>
-      <h2 className='text-2xl font-semibold'>Elrey</h2>
+      <img src={ElreyLogo} alt='Elrey' className='w-[15%]'/>
+      <h2 className='text-2xl tracking-wider'>Elrey</h2>
      </div>
 
      <div className='nav_right_links flex gap-11 m-3 w-[65%] items-center'>
