@@ -5,7 +5,7 @@ import { FaCirclePlay } from "react-icons/fa6";
 
 const Body = () => {
   return (
-    <div className='px-24 lg:mt-24 md:mt-24 flex gap-5 justify-between md:px-10 max-sm:flex-col w-full max-sm:px-6 max-sm:pt-20'>
+    <div className='px-24 lg:mt-24 md:mt-24 flex gap-5 justify-between md:px-10 max-sm:flex-col max-sm:w-full w-full max-sm:px-6 max-sm:pt-20'>
      <div className='body_left mt-28 pl-12 '>
       <h6 className='font-semibold text-2xl my-5 tracking-wider max-sm:w-full'>I'm Favour Okafor</h6>
       <h2 className='text-2xl font-bold tracking-wider'>Web, Mobile, Blockchain</h2>
