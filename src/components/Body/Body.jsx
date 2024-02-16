@@ -26,7 +26,7 @@ const Body = () => {
             <div className=' bg-blue-400 bg-opacity-10 p-4 rounded-full flex justify-center items-center'>
               <div className='overflow-hidden rounded-full h-[25rem] items-center
               w-[25rem] flex justify-center max-sm:h-[15rem] max-sm:w-[15rem]'>
-              <img src={Fahyvor} alt='Me' className='' />
+              <img src={Fahyvor} alt='Me' />
               </div>
             </div>
           </div>
