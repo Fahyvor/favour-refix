@@ -7,15 +7,15 @@ const Body = () => {
   return (
     <div className='px-24 lg:mt-24 md:mt-24 flex gap-5 justify-between md:px-10 max-sm:flex-col max-sm:w-full w-full max-sm:px-6 max-sm:pt-20'>
      <div className='body_left mt-28 pl-12 '>
-      <h6 className='font-semibold text-2xl my-5 tracking-wider max-sm:w-full'>I'm Favour Okafor</h6>
-      <h2 className='text-2xl font-bold tracking-wider'>Web, Mobile, Blockchain</h2>
-      <h2 className='text-6xl font-bold mt-1 tracking-wider'>Developer</h2>
+      <h6 className='font-semibold lg:text-4xl text-2xl my-5 tracking-wider max-sm:w-full'>I'm Favour Okafor</h6>
+      <h2 className='lg:text-4xl text-2xl font-bold tracking-wider'>Web, Mobile, Blockchain</h2>
+      <h2 className='lg:text-8xl text-6xl font-bold mt-1 tracking-wider'>Developer</h2>
 
       <div className='hire_me flex gap-10 mt-10 max-sm:mt-6 items-center'>
        <div className='hire_me_button bg-amber-500 text-white py-1 px-5 rounded-full text-center cursor-pointer'>
-        <p className='font-medium tracking-wider'>Hire Me</p>
+        <a href="mailto:favourokafor30@gmail.com" target="_blank"><p className='font-medium tracking-wider text-2xl'>Hire Me</p></a>
        </div>
-       <FaCirclePlay size={30} />
+       <FaCirclePlay size={40} />
       </div>
      </div>
 
