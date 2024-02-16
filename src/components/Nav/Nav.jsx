@@ -3,7 +3,7 @@ import ElreyLogo  from '../../assets/elreyLogo.png'
 
 const Nav = () => {
   return (
-    <div className='w-full flex px-11 my-5 bg-white'>
+    <div className='w-full flex px-11 my-5 bg-white md:px-4'>
      <div className='nav_left_logo flex gap-4 m-3 items-center justify-center w-[35%]'>
       <img src={ElreyLogo} alt='Elrey' className='w-[15%]'/>
       <h2 className='text-2xl tracking-wider'>Elrey</h2>

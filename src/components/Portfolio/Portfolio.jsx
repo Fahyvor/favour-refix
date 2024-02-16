@@ -10,7 +10,7 @@ import portfolio7 from '../../assets/portfolio7.png'
 const Portfolio = () => {
   return (
     <div className='w-full px-24 mt-8'>
-     <h3 className='text-center font-semibold'>I Have A Great Portfolio To Check</h3>
+     <h3 className='text-center font-semibold text-2xl tracking-wider'>I Have A Great Portfolio To Check</h3>
      <p></p>
 
      <div className='portfolio_images_links mt-8 grid lg:grid-cols-3 md:grid-cols-2 max-sm:grid-cols-1 gap-4'>
@@ -85,7 +85,7 @@ const Portfolio = () => {
       </div>
      </div>
 
-     <div className='portfolio_order bg-amber-600 w-[20%] mt-8 rounded-full text-white text-center font-semibold
+     <div className='portfolio_order bg-pink-700 w-[20%] mt-8 rounded-full text-white text-center font-semibold
      tracking-wider py-1 mx-auto'>
       <p>Start your project</p>
      </div>
