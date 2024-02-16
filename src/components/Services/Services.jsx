@@ -5,7 +5,7 @@ import web3Icon from '../../assets/web3Icon.jpg'
 
 const Services = () => {
   return (
-    <div className='px-8 w-full pb-7'>
+    <div className='px-8 w-full pb-7' id='services'>
      <h3 className='mt-10 text-center text-xl font-semibold tracking-wider'>Provide you with the best of Developement Services </h3>
      <p className='text-center'>What I Offer</p>
 

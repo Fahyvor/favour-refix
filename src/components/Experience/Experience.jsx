@@ -81,11 +81,11 @@ const skillsArray = [
 
 const Experience = () => {
   return (
-    <div className='px-20 mt-12'>
+    <div className='px-20 mt-12 max-sm:px-10' id='experience'>
       <h3 className='text-center text-2xl font-bold tracking-wider'>My Experience</h3>
       <p className='text-center'>Skills I have</p>
 
-      <div className='grid lg:grid-cols-4 md:grid-cols-2 max-sm:grid-cols-1 gap-6 mt-8 '>
+      <div className='grid lg:grid-cols-4 md:grid-cols-3 max-sm:grid-cols-2 gap-6 mt-8 '>
         {skillsArray.map((skillArray, index) => (
           <div className='flex gap-5 items-center'>
             <BsPatchCheckFill size={20}/>

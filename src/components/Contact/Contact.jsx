@@ -6,11 +6,11 @@ import { MdOutlineEmail } from 'react-icons/md'
 
 const Contact = () => {
   return (
-    <div className='px-20 md:px-10'>
+    <div className='px-20 md:px-10' id='contact'>
       <h2 className='text-center font-bold text-2xl mt-11 tracking-wider'>Contact Me</h2>
       <p className='text-center'>Get in touch</p>
 
-      <div className='grid gap-3 lg:grid-cols-4 md:grid-cols-2 mt-8'>
+      <div className='grid gap-3 lg:grid-cols-4 md:grid-cols-2 mt-8 max-sm:gap-8'>
         <a href="mailto:favourokafor30@gmail.com" target="_blank" className='flex gap-4 items-center'>
           <div className='bg-slate-100 rounded-2xl p-3 drop-shadow-lg flex justify-center items-center border-1'>
             <MdOutlineEmail size={20}  color='black'/>
