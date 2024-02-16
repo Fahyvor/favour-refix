@@ -5,7 +5,6 @@ import portfolio3 from '../../assets/portfolio3.png'
 import portfolio4 from '../../assets/portfolio4.png'
 import portfolio5 from '../../assets/portfolio5.png'
 import portfolio6 from '../../assets/portfolio6.png'
-import portfolio7 from '../../assets/portfolio7.png'
 
 const Portfolio = () => {
   return (
@@ -58,7 +57,7 @@ const Portfolio = () => {
 
         <div className='portfolio_4_details px-3 flex gap-3'>
           <a href='https://github.com/Fahyvor/cmonlineradio/tree/master' className='bg-white px-3 drop-shadow-lg'>Github</a>
-          <a href='https://' className=''>Check Out The Site</a>
+          <a href='https://cmonlineradio.com' className=''>Check Out The Site</a>
         </div>
       </div> 
 
@@ -70,7 +69,7 @@ const Portfolio = () => {
 
         <div className='portfolio_5_details px-3 flex gap-3'>
           <a href='https://github.com/Fahyvor/favour' className='bg-white px-3 drop-shadow-lg'>Github</a>
-          <a href='https://' className=''>Check Out The Site</a>
+          <a href='https://favour-fqdb.vercel.app/' className=''>Check Out The Site</a>
         </div>
       </div>
 
