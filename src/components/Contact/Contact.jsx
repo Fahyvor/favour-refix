@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF } from 'react-icons/fa'
+import { FaFacebookF, FaWhatsapp } from 'react-icons/fa'
 import { FiInstagram } from 'react-icons/fi'
 import { IoLogoTwitter } from 'react-icons/io'
 import { MdOutlineEmail } from 'react-icons/md'
@@ -20,6 +20,16 @@ const Contact = () => {
             <h2 className='font-semibold tracking-wider'>Send a Message</h2>
           </div>
           
+        </a>
+
+        <a href="https://api.whatsapp.com/send/?phone=2349072033837&text&type=phone_number&app_absent=0" target="_blank" className='flex gap-4 items-center'> 
+          <div className='bg-slate-100 rounded-2xl p-3 drop-shadow-lg flex justify-center items-center border-1'>
+            <FaWhatsapp size={20} color='black' />
+          </div>
+          <div>
+            <h2 className='font-semibold tracking-wider'>Whatsapp Handle</h2>
+            {/* <small>Elrey</small> */}
+          </div>
         </a>
 
         <a href="https://facebook.com/fahyvor" className='flex gap-4 items-center'> 

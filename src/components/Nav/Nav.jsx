@@ -24,7 +24,7 @@ const Nav = () => {
 
      <div className='nav_right_links flex gap-11 m-3 lg:justify-end w-[65%] md:w-[55%] items-center max-sm:hidden'>
       <a href="#"
-          onClick={() => setActiveNav('#')} className={activeNav === '# text-gray-950 hover:text-blue-700' ? 'active' : ''}
+          onClick={() => setActiveNav('#')} className={activeNav === '# text-gray-950 hover:text-blue-700' ? 'active ' : ''}
           >Home</a>
       <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about text-gray-950 hover:text-blue-700' ? 'active' : ''}>About</a>
       <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : 'text-gray-950 hover:text-blue-700'}>Service</a>
